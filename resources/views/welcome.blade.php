@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="refresh" content="400">
+    <title>Login Page</title>
+    <!-- Styles -->
+    <link href="/css/login.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-box login-form">
+            <div class="header">
+                <img class="logo" src="/images/logo.png" alt="NCCS Logo">
+            </div>
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name "password" required>
+
+                <label for="role">Select Role:</label>
+                <select id="role" name="role" class="dropdwn">
+                    <option value="" disabled selected>* Mandatory *</option>
+                    <option value="admin">Admin</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                    <option value="parent">Parent</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div class="forgot-password">
+                <a href="#">Forgot Password</a>
+            </div>
+        </div>
+
+        <div class="images-container">
+            <img class="image-slideshow" src="images/1.jpg" alt="NCCS Facilites">
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2023 Your Company Name
+    </div>
+    <!-- Slideshow -->
+    <script src="/js/logins.js"></script>
+</body>
+
+</html>

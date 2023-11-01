@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f6f8;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10rem 20rem;
+  padding-bottom: 5rem;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem; /* Reduce padding for responsiveness */
+}
+
+.logo {
+  max-width: 30%;
+  margin: 0.2rem;
+}
+
+.login-box {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 1rem rgba(185, 62, 165, 0.1);
+  flex: 1;
+  margin: 1rem;
+}
+
+.login-box label {
+  display: block;
+  font-weight: bold;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  padding: 0.2rem;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.login-box button {
+  width: 100%; /* Adjust the width to 100% for responsiveness */
+  padding: 0.8rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.dropdwn {
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 13%;
+  color: #000;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.images-container {
+  flex: 1;
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-slideshow {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 2rem;
+  clear: both;
+}
+
+/* Responsive styles */
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    padding: 5rem; /* Reduce padding for smaller screens */
+  }
+
+  .login-box {
+    width: 100%; /* Adjust the width to 100% for responsiveness */
+    padding: 1rem; /* Reduce padding for responsiveness */
+  }
+
+  .images-container {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    padding: 6rem; /* Reduce padding for smaller screens */
+  }
+
+  .login-box {
+    width: 100%; /* Adjust the width to 100% for responsiveness */
+    padding: 2rem; /* Reduce padding for responsiveness */
+  }
+
+  .images-container {
+    margin: 2rem 0;
+  }
+}
+
