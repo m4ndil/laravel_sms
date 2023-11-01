@@ -2,10 +2,12 @@
 <html>
 
 <head>
-    <meta http-equiv="refresh" content="400">
+    <meta http-equiv="refresh" content="30">
     <title>Login Page</title>
     <!-- Styles -->
     <link href="/css/login.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -18,8 +20,11 @@
             <form id="login-form">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" required>
-                <label for="password">Password</label>
-                <input type="password" id="password" name "password" required>
+                <label for="password">
+                    Password           
+                    <i class="fas fa-eye" id="togglePassword"></i>
+                </label>
+                <input type="password" id="password" name="password" required>
 
                 <label for="role">Select Role:</label>
                 <select id="role" name="role" class="dropdwn">
@@ -46,7 +51,7 @@
         &copy; 2023 Your Company Name
     </div>
     <!-- Slideshow -->
-    <script src="/js/logins.js"></script>
+    <script src="/js/login.js"></script>
 </body>
 
 </html>

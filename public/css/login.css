@@ -49,13 +49,20 @@ body {
 
 .login-box input[type="text"],
 .login-box input[type="password"] {
-  width: 100%;
+  width: 90%;
   padding: 0.7rem;
   margin: 0.5rem 0;
   border: 0.1rem solid #ccc;
   border-radius: 0.5rem;
 }
-
+label i.fas.fa-eye {
+  margin-left: 5rem; /* Adjust the margin as needed for the desired spacing */
+  color: purple;
+}
+label i.fas.fa-eye-slash {
+  margin-left: 5rem; /* Adjust the margin as needed for the desired spacing */
+  color: rgb(8, 221, 90);
+}
 .login-box button {
   width: 100%; /* Adjust the width to 100% for responsiveness */
   padding: 0.8rem;
@@ -94,7 +101,8 @@ body {
 
 .image-slideshow {
   max-width: 100%;
-  height: auto;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
 }
 
 .footer {
