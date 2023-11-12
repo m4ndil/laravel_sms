@@ -13,7 +13,7 @@ function changeImage() {
   currentImageIndex = (currentImageIndex + 1) % images.length;
 }
 
-setInterval(changeImage, 1000); // Change image every 2 seconds
+setInterval(changeImage, 2000); // Change image every 2 seconds
 
 var passwordInput = document.getElementById("password");
 var togglePasswordIcon = document.getElementById("togglePassword");
