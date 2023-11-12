@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta http-equiv="refresh" content="15">
+    <meta http-equiv="refresh" content="10">
     <title>Login Page</title>
     <!-- Styles -->
     <link href="/css/login.css" rel="stylesheet">
