@@ -1,4 +1,4 @@
-// JavaScript for image slideshow
+// JavaScript for image slideshows
 const imageFolder = 'images/';
 const images = [
   imageFolder + "1.jpg",
