@@ -48,7 +48,7 @@
     </div>
 
     <div class="footer">
-        &copy; 2023 Your Company Name
+        &copy; NCCS
     </div>
     <!-- Slideshow -->
     <script src="/js/login.js"></script>
