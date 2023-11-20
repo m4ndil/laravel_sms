@@ -56,7 +56,7 @@ body {
   border-radius: 0.5rem;
 }
 label i.fas.fa-eye {
-  margin-left: 5rem; /* Adjust the margin as needed for the desired spacing */
+  margin-left: 5rem; /* margin for spacing */
   color: purple;
 }
 label i.fas.fa-eye-slash {
