@@ -18,5 +18,3 @@ Route::get('/', function () {
 });
 
 Route::get('/profile', function () {
-    return view('something');
-});
