@@ -3,7 +3,7 @@ const imageFolder = 'images/';
 const images = [
   imageFolder + "1.jpg",
   imageFolder + "2.jpg",
-  imageFolder + "1.jpg"
+  imageFolder + "1e.jpg"
 ];
 let currentImageIndex = 0;
 
