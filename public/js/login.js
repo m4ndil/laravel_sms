@@ -1,4 +1,4 @@
-//image slideshowFFF
+//image slideshowF
 const imageFolder = 'images/';
 const images = [
   imageFolder + "1.jpg",
