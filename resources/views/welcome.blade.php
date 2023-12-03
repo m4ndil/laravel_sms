@@ -50,7 +50,7 @@
     <div class="footer">
         &copy; NCCS
     </div>
-    <!-- Slideshow -->
+    <!-- Slideshow in js -->
     <script src="/js/login.js"></script>
 </body>
 
