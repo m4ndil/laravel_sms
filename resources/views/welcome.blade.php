@@ -48,7 +48,7 @@
     </div>
 
     <div class="footer">
-        &copy; NCCS
+        &copy; NCCS (update this)
     </div>
     <!-- Slideshow in js -->
     <script src="/js/login.js"></script>
