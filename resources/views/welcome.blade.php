@@ -4,7 +4,7 @@ a
 <head>
     <meta http-equiv="refresh" content="15">
     <title>Login NCCS</title>
-    <!-- Styles -->
+    <!-- Style -->
     <link href="/css/login.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
